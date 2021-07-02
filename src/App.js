@@ -8,7 +8,7 @@ function App() {
   let[ismorning,setmorning] = useState(false)
   return (
    <div className ={`box ${ismorning ? 'daylight': ''}`}>
-     <h1>Daytime  : {ismorning? 'Morning': 'Night'}</h1>
+     <h1>Daytime  : {ismorning? 'Good Morning': 'Good Night'}</h1>
      <Message counter = {count} />
      <button onClick ={
 
